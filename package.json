@@ -26,6 +26,7 @@
     "url": "git+https://github.com/nak2k/node-pack-deps.git"
   },
   "scripts": {
+    "clean": "rm -rf test/tmp",
     "lint": "eslint lib",
     "prepare": "npm run lint && npm test",
     "test": "tape test/test*.js"
