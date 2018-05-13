@@ -1,6 +1,6 @@
 {
   "name": "pack-deps",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Pack dependencies",
   "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
   "bugs": {
