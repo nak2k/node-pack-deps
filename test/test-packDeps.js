@@ -2,7 +2,7 @@ const test = require('tape');
 const { packDeps } = require('..');
 
 test('test packDeps', t => {
-  t.plan(4);
+  t.plan(5);
 
   const options = {
     pkgJson: {
@@ -20,6 +20,10 @@ test('test packDeps', t => {
 
     t.equal(typeof(result.cacheDir), 'string');
     t.equal(typeof(result.cacheFile), 'string');
-    t.equal(typeof(result.zip), 'object');
+
+    const { zip } = result;
+
+    t.equal(typeof(zip), 'object');
+    t.equal(zip.file('node_modules/mkdirp/readme.markdown').name, 'node_modules/mkdirp/readme.markdown');
   });
 });
