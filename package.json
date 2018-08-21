@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "eslint": "^5.0.1",
+    "recursive-copy": "^2.0.9",
     "tape": "^4.9.1"
   },
   "homepage": "https://github.com/nak2k/node-pack-deps",
