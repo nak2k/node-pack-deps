@@ -22,6 +22,8 @@ Generate a zip file that contains dependencies from a specified `package.json`.
   - A boolean value whether to pack dependencies in production mode.
 - `options.cacheBaseDir`
   - A path of a base directory that cache a packed package on.
+- `options.exclude`
+  - A glob pattern of files that are not add into the zip file.
 - `options.baseDirInZip`
   - A path of a base directory in a zip file.
 - `options.noCache`
