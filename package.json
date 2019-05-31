@@ -7,7 +7,7 @@
     "url": "https://github.com/nak2k/node-pack-deps/issues"
   },
   "dependencies": {
-    "current-npm": "0.0.2",
+    "current-npm": "^0.1.0",
     "debug": "^4.1.0",
     "json-thumbprint": "0.0.1",
     "jszip": "^3.1.5",
